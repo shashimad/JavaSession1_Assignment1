@@ -1,0 +1,29 @@
+public class Student {
+    int age;
+    int marks;
+    public static void main(String[] args){
+        Student shashi=new Student();
+        shashi.result(6,45);
+    }
+    public void result(int age, int marks){
+    if(marks>=70)
+        {System.out.println("Student has got A grades.");}
+    else if(marks>=60)
+         if(age<15)
+            {System.out.println("Student has got A grades.");}
+         else 
+            {System.out.println("Student has got B grades.");}
+         
+    else if(45<=marks)
+    
+          if(age<15)
+          {System.out.println("Student has got B grades.");}
+          else 
+          {System.out.println("Student has got C grades.");}
+        
+    
+    else System.out.println("fail");
+    }
+  
+    }
+   
